@@ -62,7 +62,7 @@ if kartu == '1' or kartu == 'BCA' :
 		print("1. Transfer uang\n2. Tarik uang tunai\n3. Taruh/tabung uang")
 
 elif kartu == '2' or kartu == 'mandiri' :
-	kartu = kartu_BCA
+	kartu = kartu_mandiri
 	cekPw(kartu, kartu['nomor'], kartu['password'])
 	while salah :
 		a = input("ketik '1' untuk mencoba lagi : ")
@@ -73,7 +73,7 @@ elif kartu == '2' or kartu == 'mandiri' :
 		print("1. Transfer uang\n2. Tarik uang tunai\n3. Taruh/tabung uang")
 
 elif kartu == '3' or kartu == 'lainnya' :
-	kartu = kartu_BCA
+	kartu = kartu_lainnya
 	cekPw(kartu, kartu['nomor'], kartu['password'])
 	while salah :
 		a = input("ketik '1' untuk mencoba lagi : ")
