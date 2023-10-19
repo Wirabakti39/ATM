@@ -27,14 +27,14 @@ kartu_BCA = {
 }
 kartu_mandiri = {
 'nama' : 'kartu mandiri',
-'nomor' : '040307',	#Bebas mengubah value nya asal logis
-'password' : 'yunita',
+'nomor' : '193943',	#Bebas mengubah value nya asal logis
+'password' : 'wirba',
 'jumlah' : 250000
 }
 kartu_BRI = {
 'nama' : 'kartu BRI',
-'nomor' : '3945',
-'password' : 'smp',
+'nomor' : '4243',
+'password' : 'sma',
 'jumlah' : 1500000
 }
 
